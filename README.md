@@ -62,7 +62,7 @@ Your task is to examine the provided code, identify vulnerabilities, and propose
 ### Installation Steps
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/abdorhl/Task_Manager_Security.git
    cd task-manager
    ```
 
