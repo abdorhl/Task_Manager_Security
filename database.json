@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "username": "user1",
+      "password": "password1"
+    },
+    {
+      "username": "user2",
+      "password": "password2"
+    },
+    {
+      "id": "1737974783965",
+      "username": "dfgdf",
+      "password": "$2b$12$UhuWm7oRID7svzewAUjwfu/2NM9Wjp2a2S5tiL.b.2pi6o97XrYku",
+      "created": "2025-01-27T10:46:23.965Z"
+    },
+    {
+      "id": "1737976942887",
+      "username": "fs",
+      "password": "$2b$12$cxShfnKBORK6287/VlHdDuhwlGRVxksuUMi9wEmYeQAIlCWfWY1.S",
+      "created": "2025-01-27T11:22:22.887Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1674220800000,
+      "task": "Buy groceries",
+      "user": "user1"
+    },
+    {
+      "id": 1674220810000,
+      "task": "Read a book",
+      "user": "user1"
+    },
+    {
+      "id": 1674220820000,
+      "task": "Complete project",
+      "user": "user2"
+    },
+    {
+      "id": 1674220830000,
+      "task": "Plan vacation",
+      "user": "user2"
+    },
+    {
+      "id": 1737977330803,
+      "task": "sfd: sfds",
+      "user": "fs"
+    },
+    {
+      "id": 1737977355371,
+      "task": "two: lets hack",
+      "user": "fs"
+    },
+    {
+      "id": 1737977727291,
+      "task": "xds: dsasd",
+      "user": "fs"
+    },
+    {
+      "id": 1737977850468,
+      "task": "qw: wqw",
+      "user": "dfgdf"
+    },
+    {
+      "id": 1737977857754,
+      "task": "asas: asas",
+      "user": "dfgdf"
+    },
+    {
+      "id": 1737977956450,
+      "task": "asas: asas",
+      "user": "dfgdf"
+    },
+    {
+      "id": 1737978100619,
+      "task": "dsa: sa",
+      "user": "dfgdf"
+    }
+  ]
+}
