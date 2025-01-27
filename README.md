@@ -53,6 +53,72 @@ Your task is to examine the provided code, identify vulnerabilities, and propose
      - A list of unhandled error scenarios.
      - Proposed solutions for each issue.
 
+## Installation and Setup
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm (Node Package Manager)
+
+### Installation Steps
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd task-manager
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+1. Start the server:
+   ```bash
+   npm start
+   ```
+
+2. Access the application:
+   - Open your browser and navigate to:
+     - Login: http://localhost:3000/public/login.html
+     - Register: http://localhost:3000/public/register.html
+
+### Usage Guide
+
+1. **Registration**:
+   - Navigate to http://localhost:3000/public/register.html
+   - Fill in username and password
+   - Click "Register"
+
+2. **Login**:
+   - Navigate to http://localhost:3000/public/login.html
+   - Enter credentials
+   - Click "Login"
+
+3. **Task Management**:
+   - Add Task:
+     - Fill in task title and description
+     - Click "Add Task"
+   - View Tasks:
+     - All tasks are displayed in the task list
+   - Delete Task:
+     - Click the delete button next to any task
+
+4. **Logout**:
+   - Click "Logout" to end your session
+
+## Troubleshooting
+
+### Common Issues
+1. **Port Already in Use**: Change the port in `.env` file
+2. **Database Issues**: Check file permissions for database.json
+3. **Session Errors**: Clear browser cookies
+
+### Security Notes
+- Change default credentials in production
+- Use HTTPS in production environment
+- Set secure session cookies in production
+- Regularly update dependencies
+
 ## Deliverables
 - The final project, including all developed files and the implemented functionalities.
 - A detailed report of vulnerabilities and error scenarios.
@@ -64,4 +130,3 @@ Your task is to examine the provided code, identify vulnerabilities, and propose
 - Focus on analysis and understanding rather than implementing fixes immediately.
 
 Good luck!
-
